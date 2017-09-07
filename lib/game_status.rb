@@ -18,5 +18,5 @@ WIN_COMBINATIONS = [
   #diagonal combinations
   [0,4,8] #diagonal topleft/bottomright
   [2,4,6] #diagonal bottomleft/topright
-  
+
 ]
