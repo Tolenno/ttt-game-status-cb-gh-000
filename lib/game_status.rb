@@ -28,9 +28,9 @@ def won?(board) #accept board argument and return true for win & false if no win
     if position_taken?(board, win_combination[0]) && board[win_combination[0]] == board[win_combination[1]] && board[win_combination[1]] == board[win_combination[2]]
       return win_combination
     else
-      return false
     end
   end
+  false
 end
 
 won?(board)
