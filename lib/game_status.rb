@@ -37,3 +37,5 @@ def full?(board)
     free == " "
   end
 end
+
+def draw?(board)
