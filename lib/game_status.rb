@@ -47,3 +47,4 @@ if won?(board) == false
   puts "No win"
 else
   puts "We have a winner"
+end
