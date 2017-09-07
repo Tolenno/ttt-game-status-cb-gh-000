@@ -43,4 +43,7 @@ def won?(board) #accept board argument and return true for win & false if no win
   end
 end
 
-if won?(board)
+if won?(board) == false
+  puts "No win"
+else
+  puts "We have a winner"
