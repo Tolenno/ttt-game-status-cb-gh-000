@@ -25,5 +25,6 @@ def won?(board) #accept board argument and return true for win & false if no win
   WIN_COMBINATIONS.all? do |i|
     WIN_COMBINATIONS == true
   end
+end
 
 won?(board)
