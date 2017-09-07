@@ -30,8 +30,9 @@ def won?(board) #accept board argument and return true for win & false if no win
     win_index_3 = win_combination[2]
 
     trigger = board[win_index_1..win_index_3].all? do |checker|
-      checker == "X"
-      puts checker
+      if checker == "X"
+        return true
+        puts checker
     end
 
 puts trigger
