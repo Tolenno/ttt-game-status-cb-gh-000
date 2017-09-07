@@ -24,10 +24,13 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board) #accept board argument and return true for win & false if no win yet. if there is a win will return winning combo indexes as an array.
-  WIN_COMBINATIONS.each do |win_combination|
-    win_index_1 = win_combination[0] #puts each index of winning combo into a variable
-    win_index_2 = win_combination[1]
-    win_index_3 = win_combination[2]
+  WIN_COMBINATIONS.each do |win_index|
+    win_index_1 = win_index[0] #puts each index of winning combo into a variable
+    win_index_2 = win_index[1]
+    win_index_3 = win_index[2]
+
+    board[win_index_1, win_index_2, win_index_3].all? do |win_combination|
+      win_combination == "X"
 
     position_1 = board[win_index_1] #stores the value of the index matching the winning combination in a variable to check if it is a winner.
     position_2 = board[win_index_2]
