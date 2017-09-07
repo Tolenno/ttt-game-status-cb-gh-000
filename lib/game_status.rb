@@ -35,17 +35,6 @@ def won?(board) #accept board argument and return true for win & false if no win
 
     if trigger == true
       return win_combination
-
-    position_1 = board[win_index_1] #stores the value of the index matching the winning combination in a variable to check if it is a winner.
-    position_2 = board[win_index_2]
-    position_3 = board[win_index_3]
-
-    if position_1 == "X" && position_2 == "X" && position_3 == "X"
-      return win_combination
-    elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
-      return win_combination
-    else
-      return false
     end
   end
 end
