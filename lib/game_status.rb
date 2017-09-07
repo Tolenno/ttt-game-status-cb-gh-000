@@ -21,4 +21,9 @@ WIN_COMBINATIONS = [
 
 ]
 
-def won?(board)
+def won?(board) #accept board argument and return true for win & false if no win yet. if there is a win will return winning combo indexes as an array.
+  WIN_COMBINATIONS.all? do |i|
+    WIN_COMBINATIONS == true
+  end
+  
+  
