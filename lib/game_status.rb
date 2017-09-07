@@ -31,7 +31,3 @@ def won?(board) #accept board argument and return true for win & false if no win
   end
   return false
 end
-
-won?(board)
-
-puts WIN_COMBINATIONS.inspect
