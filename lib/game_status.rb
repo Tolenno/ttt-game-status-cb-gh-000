@@ -39,6 +39,7 @@ def won?(board) #accept board argument and return true for win & false if no win
 puts trigger
     if trigger == true
       return win_combination
+      puts win_combination
     else
       return false
     end
