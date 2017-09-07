@@ -32,7 +32,7 @@ def won?(board) #accept board argument and return true for win & false if no win
   return false
 end
 
-def any?(board)
+def full?(board)
   board.any? do |free_spots|
     !free_spots == " "
   end
