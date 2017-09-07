@@ -39,8 +39,8 @@ def won?(board) #accept board argument and return true for win & false if no win
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       puts "Winner"
       return win_combination
-      puts "Winner"
     else
+      puts "Loser"
       return false
     end
     end
