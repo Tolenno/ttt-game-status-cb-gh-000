@@ -25,7 +25,7 @@ WIN_COMBINATIONS = [
 
 def won?(board) #accept board argument and return true for win & false if no win yet. if there is a win will return winning combo indexes as an array.
   WIN_COMBINATIONS.each do |win_combination|
-    if position_taken?(board, win_combination[0])
+    if position_taken?(board, win_combination[0]) == 
   end
 end
 
