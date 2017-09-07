@@ -30,7 +30,7 @@ def won?(board) #accept board argument and return true for win & false if no win
     else
     end
   end
-  false
+  return false
 end
 
 won?(board)
