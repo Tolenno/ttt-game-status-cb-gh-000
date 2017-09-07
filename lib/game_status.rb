@@ -34,7 +34,6 @@ end
 
 def full?(board)
   board.any? do |free_spots|
-    free_spots == " "
+    !free_spots == " "
   end
-  false
 end
