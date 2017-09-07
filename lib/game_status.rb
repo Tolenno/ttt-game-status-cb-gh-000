@@ -27,6 +27,7 @@ def won?(board) #accept board argument and return true for win & false if no win
   WIN_COMBINATIONS.each do |win_combo|
     if board[win_combo] == "X" && board[win_combo] == "O"
       puts "TESTER"
+    end
   end
 end
 
