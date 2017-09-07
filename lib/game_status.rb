@@ -43,6 +43,8 @@ def won?(board) #accept board argument and return true for win & false if no win
       return win_combination
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return win_combination
+    else
+      false
     end
   end
 end
