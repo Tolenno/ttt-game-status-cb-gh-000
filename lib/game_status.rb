@@ -48,4 +48,4 @@ def won?(board) #accept board argument and return true for win & false if no win
 
 won?(board)
 
-puts WIN_COMBINATIONS
+puts WIN_COMBINATIONS.inspect
