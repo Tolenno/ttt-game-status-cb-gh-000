@@ -24,30 +24,4 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board) #accept board argument and return true for win & false if no win yet. if there is a win will return winning combo indexes as an array.
-  WIN_COMBINATIONS.each do |win_combination|
-    win_index_1 = win_combination[0] #puts each index of winning combo into a variable
-    win_index_2 = win_combination[1]
-    win_index_3 = win_combination[2]
-
-    trigger = board[win_index_1..win_index_3].all? do |checker|
-      if checker == "X"
-        return true
-        puts checker
-      end
-    end
-
-puts trigger
-    if trigger == true
-      return win_combination
-      puts win_combination
-    else
-      return false
-    end
-  end
-end
-
-if won?(board) == false
-  puts "No win"
-else
-  puts "We have a winner"
-end
+  
