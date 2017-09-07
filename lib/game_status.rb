@@ -33,6 +33,7 @@ def won?(board) #accept board argument and return true for win & false if no win
       if checker == "X"
         return true
         puts checker
+      end
     end
 
 puts trigger
