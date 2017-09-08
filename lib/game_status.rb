@@ -48,5 +48,6 @@ end
 
 def over?(board)
   if draw?(board)
+    true
   end
 end
