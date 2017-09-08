@@ -59,6 +59,5 @@ def winner(board)
 
   if win
     board[win[0]]
-
-  else
-    false
+else
+  nil
