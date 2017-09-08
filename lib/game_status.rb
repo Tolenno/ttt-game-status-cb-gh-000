@@ -53,3 +53,7 @@ def over?(board) #returns true if game has been won, is a draw, or is full
     true
   end
 end
+
+def won?(board)
+  if !won?(board) = false
+    return "X"
