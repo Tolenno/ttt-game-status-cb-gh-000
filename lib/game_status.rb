@@ -58,5 +58,8 @@ def won?(board)
   if !won?(board) == false && win_combination[0] == "X"
     return "X"
   elsif !won?(board) == false && win_combination[0] == "O"
+    return "O"
+  else
+    false
   end
 end
