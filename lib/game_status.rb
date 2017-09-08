@@ -46,11 +46,11 @@ def draw?(board) #returns true if the board has not been won but is full, false 
   end
 end
 
-def over?(board) #returns true if game has beenn won, is a draw, or is full
+def over?(board) #returns true if game has been won, is a draw, or is full
   if draw?(board)
     true
   elsif !won?(board) == false
     true
+  else
   end
 end
-
