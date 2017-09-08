@@ -56,9 +56,9 @@ end
 
 def winner(board)
   won?(board) = win
-  if !won?(board) == false && won?(board)[0] == "X"
+  if !won?(board) == false && win[0] == "X"
     return "X"
-  elsif !won?(board) == false && won?(board)[0] == "O"
+  elsif !won?(board) == false && win[0] == "O"
     return "O"
   else
     false
