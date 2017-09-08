@@ -57,11 +57,9 @@ end
 def winner(board)
   if !won?(board) == false #&& == "X"
     puts "X"
-#  elsif !won?(board) == false #&& == "O"
-    #return "O"
+  elsif !won?(board) == false #&& == "O"
+    return "O"
   else
     false
   end
 end
-
-winner(board)
