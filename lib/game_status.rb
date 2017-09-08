@@ -39,4 +39,4 @@ def full?(board)
 end
 
 def draw?(board) #returns true if the board has not been won but is full, false if the board hasn't been won and the board is free, and false if the board has been won.
-  
+  if !won?(board) && full?(board)
