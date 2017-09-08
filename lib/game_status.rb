@@ -55,7 +55,7 @@ def over?(board) #returns true if game has been won, is a draw, or is full
 end
 
 def winner(board)
-  if !won?(board) == false && won?_board[0] == "X"
+  if !won?(board) == false && won?(board)[0] == "X"
     return "X"
   elsif !won?(board) == false && won?(board)[0] == "O"
     return "O"
