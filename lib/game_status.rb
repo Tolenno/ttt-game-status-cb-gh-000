@@ -51,6 +51,5 @@ def over?(board) #returns true if game has been won, is a draw, or is full
     true
   elsif !won?(board) == false #game won
     true
-  else
   end
 end
