@@ -56,7 +56,6 @@ end
 
 def winner(board)
   win = won?(board)
-
   if win
     board[win[0]]
   else
