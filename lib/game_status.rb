@@ -63,3 +63,5 @@ def winner(board)
     false
   end
 end
+
+winner(board)
