@@ -45,5 +45,5 @@ def draw?(board) #returns true if the board has not been won but is full, false 
     false
   else
     false
-
   end
+end
