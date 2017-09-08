@@ -49,3 +49,4 @@ end
 def over?
   if draw?(board)
   end
+end
